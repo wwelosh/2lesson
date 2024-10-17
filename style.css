@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(190, 146, 190);
+    margin: 0;
+}
+.header{
+    width: auto;
+    height: 120px;
+    border: 4px solid rgb(233, 161, 53);
+    background-color: rgb(227, 245, 124);
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    color: rgb(116, 77, 206);
+    font-size;: 20px
+    font-family: monospace;
+    margin-top: 30px
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(2, 1, 10);
+transition: 1s;
+box-shadow: 1px 1px 2px 2px;
+
+}
+
+.con-1{
+    width: auto;
+    height: 400px;
+    background-color: rgb(218, 185, 223);
+    border-color: rgb(29, 5, 51);
+}
+.con-2{
+    width: auto;
+    height: 300px;
+    background-color: rgb(206, 180, 214);
+}
